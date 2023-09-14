@@ -13,7 +13,7 @@ body{
 }
 
 .leftlogin {
-    width: 50vw;
+    width: 40vw;
     height: 100vh;
     display: flex;
     justify-content: center;
@@ -31,7 +31,7 @@ body{
 h2 {
     font-size: 1vw;
     color: rgb(255, 255, 255);
-    padding-right: 30%;
+    padding-right: 40%;
 }
 
 .florlogin{
@@ -39,7 +39,7 @@ h2 {
 }
 
 .rightlogin {
-    width: 50vw;
+    width: 40vw;
     height: 100vh;
     display: flex;
     justify-content: center;
@@ -75,6 +75,7 @@ h2 {
 
 .txt > input {
     width: 100%;
+    height: 4vh;
     border: none;
     border-radius: 10px;
     padding: 15x; 
