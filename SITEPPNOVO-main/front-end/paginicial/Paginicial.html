@@ -4,25 +4,24 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="Paginicial.css">
     <title>INTIMUS</title>
 </head>
 <body>
-    <header style="background-image: url('../imgs/fundo.png');">
+    <header style="background-image: url('../imgs/fundo.png')">
         <div class="container">
             <nav>
                 <a href="../paginicial/Paginicial.html">
                     <img src="../imgs/logo 1.png" class="logo">
                 </a>
                 <ul class="menu">
-                    <a href="../paginicial/Paginicial.html">Home</a>
+                    <a id="sobrecard">Sobre</a>
                     <a href="../comentarios/Coments.html">Comentários</a>
-                    <a href="../perfil/Perfil.html">Perfil</a>
-                    <a class="btlog" href="../login/Login.html">Login</a>
+                    <a href="../login/Login.html">Sair</a>
                 </ul>
             </nav>
-            <section class="banner">
+            <section class="banner">              
                 <div class="bannertxt">
                     <h1>Intimus</h1>
                     <p>Educação sexual: Conheça-se, Respeite-se, Ame-se.</p>
@@ -30,7 +29,20 @@
             </section>
         </div>
     </header>
-    <section class="edsex">
+    <!-- fim da header -->
+
+    <!-- card -->
+    <div id="cardcontainer">
+        <div id="cardsobre">
+            <h2>Informações Sobre</h2>
+            <p>Este é um card de informações sobre o site.</p>
+        </div>
+    </div>
+    
+    <script src="../javascript/pginicial.js"></script>
+   <!-- fim do card -->
+   
+   <section class="edsex">
         <div class="container">
             <div class="edsextxt">
                 <h3>O que é educação sexual?</h3>
@@ -40,13 +52,17 @@
                     </p>
             </div>
             <div class="edseximg">
-                <img src="../imgs/imgutero.svg">
+                <img src="../imgs/uteroimg.svg">
             </div>
         </div>
     </section>
+    
     <!-- section 2 -->
     <section class="edsex">
         <div class="container">
+            <div class="edseximg">
+                <img src="../imgs/contracepimg.svg">
+            </div>
             <div class="edsextxt">
                 <h3>Por que a educação sexual é tão importante?</h3>
                     <p>
@@ -56,15 +72,15 @@
             </div>
         </div>
     </section>
+   
     <!-- footer -->
-    <footer class="footer">
-        <div class="container">
-            <div>
-                <p>Desenvolvido por Sophia Moretto Borges</p>
-            </div>
-            
-
+   
+    <footer>
+        <div class="redes">
+                <a href="https://www.instagram.com/soophmorettob/"> <i class="fa-brands fa-instagram"> </i> </a>
+                <a href="">  <i class="fa-brands fa-github"></i></a>
         </div>
+        <p>Sophia Moretto Borges @ 2023</p>
     </footer>
 </body>
 </html>
