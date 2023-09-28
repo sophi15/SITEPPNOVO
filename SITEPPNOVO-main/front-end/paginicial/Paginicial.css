@@ -43,7 +43,7 @@ nav{
 }
 
 .logo{
-    width: 8vw;
+    width: 10vw;
 }
 
 nav ul{
@@ -73,7 +73,6 @@ nav ul a::after{
 nav ul a:hover::after {
     width: 100%;
 }
-
 
 .banner{
     display: flex;
@@ -107,14 +106,28 @@ nav ul a:hover::after {
     top: 0;
     right: -300px; 
     width: 300px;
-    height: 70%;
-    background-color: #f3767688;
+    height: 99%;
+    background-color: #fa7272e6;
     z-index: 1;
-    transition: left 0.5s; 
+    transition: right 0.9s; 
+    border-bottom-left-radius: 50px;
 }
 
 #cardsobre {
-    padding: 20px;
+    padding: 60px 20px;
+}
+
+#cardsobre h2{
+    color: white;
+    padding-bottom: 5px;
+    padding-top: 20px;
+    font-size: 20px;
+}
+
+#cardsobre p{
+    color: #ffdcdc;
+    font-size: 13px;
+    margin-bottom: 5px;
 }
 
 /* oq é ed sexual */
@@ -123,26 +136,28 @@ nav ul a:hover::after {
     display: flex;
     align-items: center; 
     justify-content: center;
-    padding: 5px 100px;
+    padding: 5px 90px;
 }
 
 .edsex .edsextxt{
-    width: 50%;
-    padding: 0 50px;
+    width: 60%;
+    padding: 0px 20px;
+    margin-top: 10%;
 }
 
 .edseximg{
     width: 30%;
+    margin-top: 50px;
 }
 
 .edsextxt h3{
-    font-size: 40px;
+    font-size: 30px;
     color: #ff7373;
 }
 
 .edsextxt p{
     margin: 15px 0;
-    font-size: 20px;
+    font-size: 16px;
     color: #a36767;
 }
 
