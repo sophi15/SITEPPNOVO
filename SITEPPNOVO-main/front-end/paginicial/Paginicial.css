@@ -136,13 +136,12 @@ nav ul a:hover::after {
     display: flex;
     align-items: center; 
     justify-content: center;
-    padding: 5px 90px;
 }
 
 .edsex .edsextxt{
     width: 60%;
-    padding: 0px 20px;
-    margin-top: 10%;
+    padding: 0px 30px;
+    margin-top: 7%;
 }
 
 .edseximg{
@@ -159,7 +158,56 @@ nav ul a:hover::after {
     margin: 15px 0;
     font-size: 16px;
     color: #a36767;
+    text-align: justify;
 }
+
+/* outra sessao pra organizar melhor */
+
+.edsex2 .container2{
+    display: flex;
+    align-items: center; 
+    justify-content: center;
+    padding: 1px 90px;
+}
+
+.edsex2 .edsextxt2{
+    margin: 2px 3px;
+    font-size: 16px;
+    
+}
+
+.edsextxt2 h3{
+    font-size: 30px;
+    color: #ff7373;
+}
+
+.edsextxt2 p{
+    margin: 15px 0;
+    font-size: 16px;
+    text-align: justify;
+    color: #a36767;
+}
+
+/* dialogo c os jovens  */
+
+.dialogos h1{
+    margin: 20px 100px;
+    font-size: 30px;
+    color: #ff7373;
+}
+
+.dialogos .container{
+    margin: 5px 70px;
+    padding: 50px 50px;  
+    display: flex;
+    background-color: rgba(255, 155, 155, 0.452);
+    border-radius: 50px;
+}
+
+.dialogos .container1{
+    padding: 5px 10px;
+}
+.dialogos .infancia 
 
 
 /* footer */
