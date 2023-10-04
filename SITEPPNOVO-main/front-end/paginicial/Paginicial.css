@@ -9,11 +9,12 @@
 }
 
 body{
-    background-color: rgba(255, 158, 158, 0.39);
+    background: rgb(255,227,227);
+    background: radial-gradient(circle, rgba(255,227,227,1) 68%, rgba(255,166,174,1) 100%);
 }
 
 section{
-    padding: 5px 50px;
+    margin: 10px 120px;
 }
 
 h3{
@@ -26,7 +27,7 @@ p{
 
 header .container{
     width: 100%;
-    padding: 15px 50px;
+    padding: 40px 50px;
 }
 
 header{
@@ -43,7 +44,7 @@ nav{
 }
 
 .logo{
-    width: 10vw;
+    width: 8vw;
 }
 
 nav ul{
@@ -77,7 +78,8 @@ nav ul a:hover::after {
 .banner{
     display: flex;
     justify-content: center;
-    padding: 10px 5px;
+    padding: 50px 5px;
+
 }
 
 .banner .bannertxt{
@@ -101,20 +103,23 @@ nav ul a:hover::after {
     font-family: Arial, Helvetica, sans-serif;
 }
 
+/* card sobre */
+
 #cardcontainer {
     position: fixed;
     top: 0;
     right: -300px; 
     width: 300px;
-    height: 99%;
-    background-color: #fa7272e6;
+    height: 70%;
+    background-color: #ff7e7eef;
     z-index: 1;
     transition: right 0.9s; 
     border-bottom-left-radius: 50px;
 }
 
 #cardsobre {
-    padding: 60px 20px;
+    padding: 50px 30px;
+    text-align: justify;
 }
 
 #cardsobre h2{
@@ -129,6 +134,7 @@ nav ul a:hover::after {
     font-size: 13px;
     margin-bottom: 5px;
 }
+/* fim do card */
 
 /* oq é ed sexual */
 
@@ -136,26 +142,27 @@ nav ul a:hover::after {
     display: flex;
     align-items: center; 
     justify-content: center;
-}
-
-.edsex .edsextxt{
-    width: 60%;
-    padding: 0px 30px;
+    padding: 10px 120px;
     margin-top: 7%;
 }
 
+.edsex .edsextxt{
+    width: 40%;
+    text-align: justify;
+}
+
 .edseximg{
-    width: 30%;
-    margin-top: 50px;
+    width: 45%;
+    padding: 0 120px;
 }
 
 .edsextxt h3{
     font-size: 30px;
-    color: #ff7373;
+    color: #ff7b7b;
 }
 
 .edsextxt p{
-    margin: 15px 0;
+    padding: 15px 0;
     font-size: 16px;
     color: #a36767;
     text-align: justify;
@@ -167,52 +174,101 @@ nav ul a:hover::after {
     display: flex;
     align-items: center; 
     justify-content: center;
-    padding: 1px 90px;
+    margin: 0 180px;
+    padding: 5px 40px;
 }
 
 .edsex2 .edsextxt2{
-    margin: 2px 3px;
     font-size: 16px;
-    
+    text-align: justify;
 }
 
 .edsextxt2 h3{
     font-size: 30px;
-    color: #ff7373;
+    color: #ff7b7b;
 }
 
 .edsextxt2 p{
-    margin: 15px 0;
+    padding: 15px 0;
     font-size: 16px;
-    text-align: justify;
     color: #a36767;
 }
 
 /* dialogo c os jovens  */
 
-.dialogos h1{
-    margin: 20px 100px;
+.dialogos h2{
+    margin: 50px 120px;
+    padding: 0 100px;
     font-size: 30px;
-    color: #ff7373;
+    color: #ff7b7b;
+    text-align: justify;
 }
 
 .dialogos .container{
-    margin: 5px 70px;
-    padding: 50px 50px;  
+    margin: 30px 200px;
+    padding: 0 50px;
     display: flex;
-    background-color: rgba(255, 155, 155, 0.452);
+    background: rgba(255, 208, 208, 0.753);
     border-radius: 50px;
 }
 
-.dialogos .container1{
-    padding: 5px 10px;
+.dialogos .container1 .infancia{
+    padding: 50px 80px;
+    color: #ff7b7b;
+    text-align: justify;
 }
-.dialogos .infancia 
 
+.infancia h3{
+    font-size: 20px;
+    padding: 5px 0px;
+}
+
+.infancia p{
+    color: #a36767;
+    font-size: 15px ;
+}
+
+.dialogos .container2{
+    padding: 50px 80px;
+    color: #ff7b7b;
+    text-align: justify;
+}
+
+.adolescencia h3{
+    font-size: 20px;
+    padding: 5px 0px;
+}
+
+.adolescencia p{
+    color: #a36767;
+    font-size: 15px ;
+}
+
+/* sessao grafico abuso infantil */
+ 
+.grafico h3 {
+    margin: 50px 120px;
+    padding: 0 100px;
+    font-size: 30px;
+    color: #ff7b7b;
+    text-align: justify;
+}
+
+.grafico .container{
+    margin: 5px 120px;
+    padding: 10px 100px; 
+}
+
+.grafico .grafico1{
+    width: 35vw;
+}
+
+/* fim da sessao */
 
 /* footer */
 
 footer{
+    position: fixed;
     background: linear-gradient(#ff9c9c, #d16060);
     display: flex;
     align-items: center;
@@ -221,6 +277,7 @@ footer{
     padding: 40px;
     position: absolute;
     width: 100%;
+    margin-top: 7%;
     border-top-left-radius: 190px;
 }
 

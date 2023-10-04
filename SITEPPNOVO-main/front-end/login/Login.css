@@ -34,8 +34,8 @@ h2 {
     padding-right: 40%;
 }
 
-.florlogin{
-    width: 30vw;
+.uterologin{
+    width: 70%;
 }
 
 .rightlogin {
@@ -94,7 +94,7 @@ h2 {
 }
 
 .inputbox input:hover{
-    background-color: rgb(255, 165, 165);
+    background-color: rgb(252, 222, 222);
 }
 
 .btentrar{
