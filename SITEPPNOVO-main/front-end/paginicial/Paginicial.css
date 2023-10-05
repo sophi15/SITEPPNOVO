@@ -10,11 +10,7 @@
 
 body{
     background: rgb(255,227,227);
-    background: radial-gradient(circle, rgba(255,227,227,1) 68%, rgba(255,166,174,1) 100%);
-}
-
-section{
-    margin: 10px 120px;
+    background: radial-gradient(circle, rgba(255, 225, 222, 0.785) 38%, rgb(253, 156, 164) 100%);
 }
 
 h3{
@@ -110,7 +106,7 @@ nav ul a:hover::after {
     top: 0;
     right: -300px; 
     width: 300px;
-    height: 70%;
+    height: 95%;
     background-color: #ff7e7eef;
     z-index: 1;
     transition: right 0.9s; 
@@ -118,7 +114,7 @@ nav ul a:hover::after {
 }
 
 #cardsobre {
-    padding: 50px 30px;
+    padding: 40px 30px;
     text-align: justify;
 }
 
@@ -142,7 +138,7 @@ nav ul a:hover::after {
     display: flex;
     align-items: center; 
     justify-content: center;
-    padding: 10px 120px;
+    padding: 10px 110px;
     margin-top: 7%;
 }
 
@@ -157,7 +153,7 @@ nav ul a:hover::after {
 }
 
 .edsextxt h3{
-    font-size: 30px;
+    font-size: 26px;
     color: #ff7b7b;
 }
 
@@ -174,7 +170,7 @@ nav ul a:hover::after {
     display: flex;
     align-items: center; 
     justify-content: center;
-    margin: 0 180px;
+    margin: 5px 150px;
     padding: 5px 40px;
 }
 
@@ -184,7 +180,7 @@ nav ul a:hover::after {
 }
 
 .edsextxt2 h3{
-    font-size: 30px;
+    font-size: 26px;
     color: #ff7b7b;
 }
 
@@ -194,26 +190,43 @@ nav ul a:hover::after {
     color: #a36767;
 }
 
+.edsextxt2 .citação{
+    font-family:'Times New Roman', Times, serif;
+    font-size: 18px;
+    color:#d16060;
+}
+
+.edsex2 .imgcontainer{
+    margin: 50px 180px;
+    padding-bottom: 50px;
+    display: flex;
+    width: 30%;
+}
+
+.edsex2 .utero{
+    padding-left: 60px;
+}
+
 /* dialogo c os jovens  */
 
 .dialogos h2{
-    margin: 50px 120px;
-    padding: 0 100px;
-    font-size: 30px;
+    margin: 5px 100px;
+    padding: 10px 100px;
+    font-size: 26px;
     color: #ff7b7b;
     text-align: justify;
 }
 
 .dialogos .container{
-    margin: 30px 200px;
-    padding: 0 50px;
+    margin: 10px 140px;
+    padding: 5px 20px;
     display: flex;
     background: rgba(255, 208, 208, 0.753);
     border-radius: 50px;
 }
 
 .dialogos .container1 .infancia{
-    padding: 50px 80px;
+    padding: 40px 90px;
     color: #ff7b7b;
     text-align: justify;
 }
@@ -229,7 +242,7 @@ nav ul a:hover::after {
 }
 
 .dialogos .container2{
-    padding: 50px 80px;
+    padding: 40px 50px;
     color: #ff7b7b;
     text-align: justify;
 }
@@ -246,16 +259,21 @@ nav ul a:hover::after {
 
 /* sessao grafico abuso infantil */
  
+.grafico {
+    justify-content: center;
+    align-items: center;
+}
+
 .grafico h3 {
-    margin: 50px 120px;
-    padding: 0 100px;
-    font-size: 30px;
+    margin: 40px 270px ;
+    padding: 0 30px;
+    font-size: 26px;
     color: #ff7b7b;
     text-align: justify;
 }
 
 .grafico .container{
-    margin: 5px 120px;
+    margin: 0 280px;
     padding: 10px 100px; 
 }
 
