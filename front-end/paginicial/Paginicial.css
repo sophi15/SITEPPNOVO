@@ -1,0 +1,308 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500&family=Roboto:wght@300;400;500&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    outline: none;
+    font-family: 'Inter', sans-serif;
+}
+
+body{
+    background: radial-gradient(circle, #ffeeee, #ffe9e6); /* Degradê radial de uma cor para outra */
+    margin: 0;
+    height: 100vh;
+}
+
+section{
+    margin: 40px 180px;
+}
+
+p{
+    color: white;
+}
+
+header .container{
+    width: 100%;
+    padding: 40px 50px;
+}
+
+header{
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+
+.logo{
+    width: 8vw;
+}
+
+nav ul{
+    display: flex;
+    align-items:center ;
+}
+
+nav ul a{
+    color: white;
+    margin: 0 50px;
+    text-transform: uppercase;
+    font-size: 20px;
+    display: block;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+nav ul a::after{
+    content: "";
+    background-color: rgb(255, 109, 109);
+    height: 3px;
+    width: 0%;
+    display: block;
+    transition: 0.3s;
+}
+
+nav ul a:hover::after {
+    width: 100%;
+}
+
+.banner{
+    display: flex;
+    justify-content: center;
+    padding: 50px 5px;
+
+}
+
+.banner .bannertxt{
+    margin: 150px;
+    text-align: center;
+}
+
+.banner .bannertxt h1{
+    font-size: 150px;
+    color: white;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    /* font-family: Arial, Helvetica, sans-serif; */
+}  
+
+.banner .bannertxt p{
+    font-size: 25px;
+    color: white;
+    font-weight: lighter;
+    margin: 15px 0;
+    text-align: left;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* card sobre */
+
+#cardcontainer {
+    position: fixed;
+    top: 0;
+    right: -300px; 
+    width: 300px;
+    height: 70%;
+    background-color: #ff7e7eef;
+    z-index: 1;
+    transition: right 0.9s; 
+    border-bottom-left-radius: 50px;
+}
+
+#cardsobre {
+    padding: 50px 30px;
+    text-align: justify;
+}
+
+#cardsobre h2{
+    color: white;
+    padding-bottom: 5px;
+    padding-top: 20px;
+    font-size: 20px;
+}
+
+#cardsobre p{
+    color: #ffdcdc;
+    font-size: 13px;
+    margin-bottom: 5px;
+}
+/* fim do card */
+
+/* oq é ed sexual */
+
+.edsex .container{
+    display: flex;
+    align-items: center; 
+    justify-content: center;
+    margin: 8% 100px;
+    background-color: #ffbfbf6e;
+    border-radius: 50px;
+}
+
+.edsex .edsextxt{
+    width: 30%;
+    text-align: justify;
+}
+
+.edseximg{
+    width: 50%;
+    padding: 0 120px;
+}
+
+.edsextxt h3{
+    font-size: 30px;
+    color: #ff7b7b;
+}
+
+.edsextxt p{
+    padding: 15px 0;
+    font-size: 18px;
+    color: #945c5c;
+    text-align: justify;
+}
+
+/* outra sessao pra organizar melhor */
+
+.edsex2 .container2{
+    display: flex;
+    align-items: center; 
+    justify-content: center;
+}
+
+.edsex2 .edsextxt2{
+    font-size: 16px;
+    text-align: justify;
+    margin-left: 50px;
+    width: 50%;
+}
+
+.edsextxt2 h3{
+    font-size: 30px;
+    color: #ff7b7b;
+}
+
+.edsextxt2 p{
+    padding: 15px 0;
+    font-size: 16px;
+    color: #a36767;
+}
+
+.edseximg2 {
+    width: 20%;
+}
+
+/* dialogo c os jovens  */
+
+.dialogos{
+    padding: 50px;
+}
+
+.dialogos h2{
+    margin: 30px 110px;
+    padding: 0 100px;
+    font-size: 30px;
+    color: #ff7b7b;
+    text-align: justify;
+}
+
+.dialogos .container{
+    margin: 0px 90px;
+    padding: 0 30px;
+    display: flex;
+    background: rgba(255, 208, 208, 0.753);
+    border-radius: 50px;
+}
+
+.dialogos .container1 .infancia{
+    padding: 50px 90px;
+    color: #ff7b7b;
+    text-align: justify;
+}
+
+.infancia h3{
+    font-size: 22px;
+    padding: 6px 0px;
+}
+
+.infancia li{
+    color: #a36767;
+}
+
+.dialogos .container2{
+    padding: 50px 70px;
+    color: #ff7b7b;
+    text-align: justify;
+}
+
+.adolescencia h3{
+    font-size: 22px;
+    padding: 6px 0px;
+}
+
+.adolescencia li{
+    color: #a36767;
+}
+
+/* sessao grafico abuso infantil */
+ 
+.grafico h3 {
+    margin: 30px 120px;
+    padding: 0 100px;
+    font-size: 30px;
+    color: #ff7b7b;
+    text-align: justify;
+}
+
+.grafico .container{
+    margin: 5px 120px;
+    padding: 5px 100px; 
+}
+
+.grafico .imgabuso{
+    width: 40vw;
+}
+
+.grafico p{
+    color: #945c5c;
+}
+
+/* fim da sessao */
+
+/* footer */
+
+footer{
+    position: fixed;
+    background: linear-gradient(#ff9c9c, #d16060);
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    color: #ffffff;
+    padding: 40px;
+    position: absolute;
+    width: 100%;
+    margin-top: 7%;
+    border-top-left-radius: 190px;
+}
+
+.redes{
+    margin-bottom: 20px;
+}
+
+.redes i{
+    font-size: 30px;
+    border: 1px solid white;
+    border-radius: 50px;
+    padding: 10px;
+    margin: 5px;
+    cursor: pointer;
+    color: white;
+}
+
+footer .p{
+    font-size: 15px;
+}
