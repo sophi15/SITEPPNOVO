@@ -4,6 +4,12 @@ document.getElementById("PaginaSobre").addEventListener("click", function() {
 });
 
 // botao dos coments
+
 document.getElementById("botaoComentarios").addEventListener("click", function() {
-    window.location.href = "#comentariosSection";
+    
+    // Rola até a div de comentários usando a âncora
+    document.getElementById("comentsDiv").scrollIntoView({ behavior: "smooth" });
 });
+
+
+
