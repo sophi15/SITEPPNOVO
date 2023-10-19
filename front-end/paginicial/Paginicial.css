@@ -14,11 +14,7 @@ body{
     height: 100vh;
 }
 
-section{
-    margin: 40px 180px;
-}
-
-p{
+header p{
     color: white;
 }
 
@@ -49,17 +45,19 @@ nav ul{
     align-items:center ;
 }
 
-nav ul a{
-    color: white;
-    margin: 0 50px;
+nav ul button{
+    background-color: transparent;
+    border: none;
+    margin: 0 30px;
+    color: #ffffff;
     text-transform: uppercase;
-    font-size: 20px;
+    font-size: 25px;
     display: block;
     font-family: Arial, Helvetica, sans-serif;
 }
 
 
-nav ul a::after{
+nav ul button::after{
     content: "";
     background-color: rgb(255, 109, 109);
     height: 3px;
@@ -68,7 +66,7 @@ nav ul a::after{
     transition: 0.3s;
 }
 
-nav ul a:hover::after {
+nav ul button:hover::after {
     width: 100%;
 }
 
@@ -100,81 +98,46 @@ nav ul a:hover::after {
     font-family: Arial, Helvetica, sans-serif;
 }
 
-/* card sobre */
 
-#cardcontainer {
-    position: fixed;
-    top: 0;
-    right: -300px; 
-    width: 300px;
-    height: 70%;
-    background-color: #ff7e7eef;
-    z-index: 1;
-    transition: right 0.9s; 
-    border-bottom-left-radius: 50px;
+/* corpo do site*/
+
+main {
+    align-items: center;
+    justify-content: center;
+    margin: 5% 100px;
+    padding: 30px 120px;
 }
-
-#cardsobre {
-    padding: 50px 30px;
-    text-align: justify;
-}
-
-#cardsobre h2{
-    color: white;
-    padding-bottom: 5px;
-    padding-top: 20px;
-    font-size: 20px;
-}
-
-#cardsobre p{
-    color: #ffdcdc;
-    font-size: 13px;
-    margin-bottom: 5px;
-}
-/* fim do card */
-
-/* oq é ed sexual */
 
 .edsex .container{
-    display: flex;
+    margin: 20px 100px;
     align-items: center; 
     justify-content: center;
-    margin: 8% 100px;
-    background-color: #ffbfbf6e;
-    border-radius: 50px;
+    border-radius: 100px;
+    padding-bottom: 90px;
+    padding: 70px 90px;
+    background-color: #ffd0d086;
 }
 
-.edsex .edsextxt{
-    width: 30%;
-    text-align: justify;
-}
-
-.edseximg{
-    width: 50%;
-    padding: 0 120px;
-}
-
-.edsextxt h3{
-    font-size: 30px;
-    color: #ff7b7b;
+.edsextxt h2{
+    font-size: 35px;
+    color: #e77a7a;
 }
 
 .edsextxt p{
     padding: 15px 0;
-    font-size: 18px;
-    color: #945c5c;
-    text-align: justify;
+    font-size: 20px;
+    color: #c47575;
 }
 
-/* outra sessao pra organizar melhor */
 
-.edsex2 .container2{
+.edsex .container2{
     display: flex;
     align-items: center; 
     justify-content: center;
+    margin-top: 30px;
 }
 
-.edsex2 .edsextxt2{
+.edsex .edsextxt2{
     font-size: 16px;
     text-align: justify;
     margin-left: 50px;
@@ -182,44 +145,44 @@ nav ul a:hover::after {
 }
 
 .edsextxt2 h3{
-    font-size: 30px;
-    color: #ff7b7b;
+    font-size: 25px;
+    color: #e77a7a;
 }
 
 .edsextxt2 p{
     padding: 15px 0;
-    font-size: 16px;
+    font-size: 18px;
     color: #a36767;
 }
 
-.edseximg2 {
-    width: 20%;
+.edseximg {
+    width: 25%;
 }
 
 /* dialogo c os jovens  */
 
 .dialogos{
+    margin: 7%;
     padding: 50px;
 }
 
 .dialogos h2{
-    margin: 30px 110px;
-    padding: 0 100px;
-    font-size: 30px;
-    color: #ff7b7b;
+    padding: 10px 100px;
+    font-size: 25px;
+    color:#e77a7a;
     text-align: justify;
 }
 
 .dialogos .container{
-    margin: 0px 90px;
-    padding: 0 30px;
+    margin: 10px 50px;
+    padding: 0 20px;
     display: flex;
-    background: rgba(255, 208, 208, 0.753);
+    background: rgba(255, 208, 208, 0.404);
     border-radius: 50px;
 }
 
 .dialogos .container1 .infancia{
-    padding: 50px 90px;
+    padding: 50px 50px;
     color: #ff7b7b;
     text-align: justify;
 }
@@ -234,7 +197,7 @@ nav ul a:hover::after {
 }
 
 .dialogos .container2{
-    padding: 50px 70px;
+    padding: 50px 50px;
     color: #ff7b7b;
     text-align: justify;
 }
@@ -248,30 +211,7 @@ nav ul a:hover::after {
     color: #a36767;
 }
 
-/* sessao grafico abuso infantil */
- 
-.grafico h3 {
-    margin: 30px 120px;
-    padding: 0 100px;
-    font-size: 30px;
-    color: #ff7b7b;
-    text-align: justify;
-}
 
-.grafico .container{
-    margin: 5px 120px;
-    padding: 5px 100px; 
-}
-
-.grafico .imgabuso{
-    width: 40vw;
-}
-
-.grafico p{
-    color: #945c5c;
-}
-
-/* fim da sessao */
 
 /* footer */
 
