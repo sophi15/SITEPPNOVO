@@ -8,10 +8,10 @@
     font-family: 'Inter', sans-serif;
 }
 
-/* só repetindo a header */
+/* header */
 
 body{
-    background: radial-gradient(circle, #f5c0c0, #ffe9e6); 
+    background: radial-gradient(circle, #feb2b2, #fc9082); 
     margin: 0;
     height: 100vh;
 }
@@ -63,3 +63,49 @@ nav{
 
 /* corpo da pg */
 
+main {
+    margin: 70px 80px;
+    padding: 60px 80px;
+    text-align: justify;
+    box-sizing: border-box;
+    background-color: rgba(240, 248, 255, 0.498);
+}
+
+.sobresite .container{
+   display: flex;
+   flex-wrap: wrap;
+
+}
+
+.sobresite .txt{
+    width: 50%;
+    
+}
+
+.sobresite h2{
+    color: #ff614d;
+    font-size: 30px;
+    padding-bottom: 10px;
+}
+
+.sobresite p{
+    color: #8a5048;
+    padding-right: 150px;
+}
+
+.sobresite .imagem1{
+    width: 400px;
+    margin-top: -100px;
+    
+    
+}
+
+@media only screen and (max-width: 850px) {
+    .sobresite .imagem1{
+        margin-top: 0px;
+    }
+    .sobresite .txt{
+        width: 100%;
+        
+    }
+}
