@@ -12,4 +12,18 @@ document.getElementById("botaoComentarios").addEventListener("click", function()
 });
 
 
+// sessao dos comentários
 
+// Função para enviar comentário
+function submitComment() {
+    var username = document.getElementById("username").value;
+    var commentText = document.getElementById("comment").value;
+  
+    if (username && commentText) {
+      // Criar um objeto de comentário
+      var comment = {
+        username: username,
+        text: commentText
+      };
+    }
+}  
